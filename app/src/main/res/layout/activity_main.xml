@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="User Information"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="text"
+        android:hint="Name"
+        android:id="@+id/name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:id="@+id/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="phone"
+        android:hint="Contact"
+        android:id="@+id/contact"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/spinnerCity"
+        android:entries="@array/citySpinner"/>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Select Language"
+        android:id="@+id/select_lang"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressBar"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Add User"
+        android:id="@+id/btn_add_user"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="View Data"
+        android:onClick="openViewDataActivity"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

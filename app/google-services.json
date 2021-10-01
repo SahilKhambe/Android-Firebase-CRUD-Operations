@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017072483624",
+    "firebase_url": "https://database-ed920-default-rtdb.firebaseio.com",
+    "project_id": "database-ed920",
+    "storage_bucket": "database-ed920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017072483624:android:ba731b8b4a0b1e213fa41d",
+        "android_client_info": {
+          "package_name": "com.example.androidfirebasecurdoperations"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017072483624-kc55p6973n37sa2s7ip6g3ls034hgoci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJzFN_bqselhiryT7R6eQBD1LsxeeGKIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017072483624-kc55p6973n37sa2s7ip6g3ls034hgoci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

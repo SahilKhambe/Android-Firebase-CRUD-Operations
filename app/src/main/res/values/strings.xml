@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Android Firebase CURD Operations</string>
+    <string-array name="citySpinner">
+
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Ahmedabad</item>
+        <item>Bangalore</item>
+        <item>Nagpur</item>
+
+    </string-array>
+</resources>

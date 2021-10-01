@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="19sp"
+        android:text="Name here"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_name"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="19sp"
+        android:text="Email here"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_email"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="19sp"
+        android:text="Contact here"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_contact"/>
+
+
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="19sp"
+        android:text="City here"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_city"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="19sp"
+        android:text="Lang here"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt_lang"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
